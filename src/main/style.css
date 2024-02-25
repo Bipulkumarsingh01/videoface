@@ -1,0 +1,37 @@
+/* src/main/style.css */
+.container {
+    margin-top: 1.5rem;
+  }
+  
+  .videoContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .videoPlayer {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .downloadButton {
+    margin-top: 1rem;
+  }
+  
+  .progress {
+    margin-top: 1rem;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-top: 100px;
+}
+
+input[type="file"] {
+    margin-bottom: 45px;
+    margin-left: 155px;
+}
